@@ -1,7 +1,7 @@
 {
   "name": "stone-dark",
   "version": "1.0",
-  "main": "colors.css",
+  "main": "colours.css",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
