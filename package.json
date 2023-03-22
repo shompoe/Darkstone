@@ -1,6 +1,6 @@
 {
   "name": "Stone-dark",
-  "version": "1.1",
+  "version": "1.0",
   "main": "colors.css",
   "devDependencies": {
     "grunt": "^1.0.1",
