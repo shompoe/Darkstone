@@ -10,7 +10,7 @@
   --sn-stylekit-neutral-color: var(--foreground-2); 
   --sn-stylekit-neutral-contrast-color: black;			
 
-  --sn-stylekit-info-color: #998F6F;		/* A3 400	*/
+  --sn-stylekit-info-color: #FF0000;		/* A3 400	*/
   --sn-stylekit-info-contrast-color: black;		
   --sn-stylekit-info-backdrop-color: var(--background-3);
 	
