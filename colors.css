@@ -58,3 +58,62 @@
 
   --navigation-item-selected-background-color: var(--sn-stylekit-background-color);
 }
+
+
+:root .sk-app-bar {
+  color: var(--foreground-2) !important;
+}
+
+:root .sk-menu-panel {
+  color: var(--foreground-1) !important;
+}
+
+:root .cm-s-default .cm-variable-3,
+:root .cm-s-default .cm-type {
+  color: var(--success-color) !important;
+}
+
+:root .cm-s-default .cm-variable-3 {
+  color: #5acf83;
+}
+:root #editor-menu-bar > div > div.sk-app-bar-item.selected > div.sk-menu-panel.dropdown-menu.ng-scope > div:nth-child(1) > menu-row:nth-child(7) > div > div > div > div > div {
+  color: var(--danger-color);
+}
+:root .tags .tag > .tag-info > .tag-icon {
+	opacity: 0.4;
+}
+:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.tag-info > div.tag-icon {
+	opacity: 0.5;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.info {
+	opacity: 0.6;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-2 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-3 > div.sk-circle.small.danger {
+	opacity: 0.6;
+}
+:root div.tag-info.level-4 > div.sk-circle.small.warning {
+	opacity: 0.6;
+}
+:root div.tag-info.level-5 > div.sk-circle.small.neutral {
+	opacity: 0.6;
+}
+
+:root .tag-tree .self.selected:before {
+	background: none;
+	background-color: var(--sn-stylekit-secondary-contrast-background-color);
+	opacity: 1;
+}
+
+:root .tag-tree .self .tag-info .action-menu {
+	margin-left: auto;
+	margin-right: 0;
+}
+:root .tags .tag > .menu:hover {
+	opacity: 0.5;
+}
